@@ -1,6 +1,6 @@
-FROM node:10.15.1
+FROM node:latest
 
-RUN npm install -g gulp
+RUN npm install -g gulp encore
 
 VOLUME [ "/app" ]
 WORKDIR /app
